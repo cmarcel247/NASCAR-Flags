@@ -20,3 +20,14 @@ cf.nascar.com/live/feed/live-flag/data.json
 3 - Red - Solid red
 4 - Finish - Checkered white and black (off)
 
+## Development Commands
+
+```bash
+cd ~/nascar_led
+
+# Only needed first time
+sudo ./bin/pip install rpi_ws281x
+
+sudo ./bin/python test.py
+
+```
